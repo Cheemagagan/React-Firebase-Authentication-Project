@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    color: aquamarine;
+    height: 6vh;
+    font-weight: bold;
+    padding: 9px;
+    font-size: auto;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(58, 55, 55);
+    color: aquamarine;
+    height: 55px;
+    border: 3px solid black;
+    border-radius: 15px;
+    margin: 3px;
+}
+
+.deakin {
+    display: flex;
+    justify-content: center;
+    color: aquamarine;
+    height: 6vh;
+    font-weight: bold;
+    font-size: 2vh;
+    padding: 7px;
+}
+
+.s {
+    display: flex;
+}
+
+.s input {
+    
+    width: 1120px;
+    height: auto;
+  
+
+}
+
+.button {
+    margin-left: 10px;
+    cursor: pointer;
+    height: 30px;
+ 
+}

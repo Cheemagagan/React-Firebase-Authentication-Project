@@ -1,0 +1,34 @@
+.I{
+    width:25vh;
+    height: 25vh;
+    animation: changeImage 15s linear infinite;
+    border-radius: 250px;
+  }
+  .I:hover {
+      box-shadow: 3px 2px 4px 3px rgba(0, 140, 186, 0.5);
+    }
+    
+  @keyframes changeImage {
+      0%{
+          background-image: url('https://assets.cdn.thewebconsole.com/S3WEB6082/a_images/62ce2a6b92cb8.jpg?v=2&m=785a49c5b0eb723cff622eb65a8d5ba2&cropresize(850x607)');
+      }
+      25%{
+          background-image: url('https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/institutions/Deakin.png')
+      }
+      50%{
+          background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgQHOClBuWep0CiCRF0uhCkzFYNjhIhgtEiQJ4LXapRksklO5pHEy6_IHofbWwyWl8UgA&usqp=CAU');
+      }
+      75%{
+          background-image: url('https://www.deakin.edu.au/__data/assets/image/0007/2529232/Deakin-University-Burwood.jpg');
+      }
+      100%{
+          background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.archpaper.com%2F2021%2F11%2Ffacades-fluted-deakin-law-building-at-university-of-melbourne-hopes-to-charm-students-back-to-campus%2F&psig=AOvVaw2GlitUTNyyBQYinS963Rvo&ust=1693241927622000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqGAoTCPDToe-n_YADFQAAAAAdAAAAABCOAQ');
+      }
+      
+  }
+
+  .all{
+   display: flex;
+   padding: 1%;
+   justify-content: center;
+  }
